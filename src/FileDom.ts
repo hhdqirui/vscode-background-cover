@@ -44,9 +44,9 @@ export class FileDom {
 		/*ext-${this.extName}-start*/
 		/*ext.${this.extName}.ver.${version}*/
 		body{
-			background-size: cover;
+			background-size: contain;
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: right bottom;
 			opacity:${opacity};
 			background-image:url('${this.imagePath}');
 		}
